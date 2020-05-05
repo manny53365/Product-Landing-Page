@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 
 <html>
+    <!--Header Code-->
     <header id="header">
+        <title>Product Landing Page</title>
+        <h2>This is a Random Funnel Cake Image</h2>
         <img id="header-image" src="https://i2.wp.com/www.sugarspunrun.com/wp-content/uploads/2019/05/Funnel-Cake-Recipe-1-of-1.jpg">
         <link rel="stylesheet" href="style.css">
     </header>
 
     <body>
+        <!--Nav Bar Code-->
         <nav id="nav-bar">
-            <a id="nav-link" href="https://google.com">Google</a>
-            <a id="nav-link" href="https://facebook.com">Facebook</a>
-            <a id="nav-link" href="https://reddit.com">Reddit</a>
+            <a id="nav-link" href="https://google.com" target="_blank">Google</a>
+            <a id="nav-link" href="https://facebook.com" target="_blank">Facebook</a>
+            <a id="nav-link" href="https://reddit.com" target="_blank">Reddit</a>
         </nav>
-        
+        <!--Video Code-->
         <section>
+            <h2>Please watch the video below</h2>
+            <iframe id="video" src="https://www.youtube.com/embed/x4xur5k2Xu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <!--Email Section-->
+        <form id="email">
+            <label for="email">Enter Your Email:</label>
+                <input type="email" for="email" placeholder="Enter Email Address" required>
+                <button id="submit" type="button">Submit</button>
+        </form>
+        <section id="taco-article">
             <article>
-                <video src="#"></video>
+                <p>
+                    This is currently just a blank section for this demo webpage on, this is here as a placeholder...
+                </p>
             </article>
         </section>
     </body>
+    <footer>
+        <nav id="footer-nav">
+            <a href="#header">Back to top</a>
+            <a href="https://www.freecodecamp.org/" target="_blank">Learn to code</a>
+        </nav>
 
-    
+    </footer>
 </html>

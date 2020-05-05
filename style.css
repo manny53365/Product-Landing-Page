@@ -1,7 +1,24 @@
+html {
+    background-color: black;
+    color: yellow;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
 #header-image {
     justify-content: center;
     height: 200px;
     width: 200px;
+}
+
+body {
+    text-align: center;
 }
 
 body a {
@@ -9,8 +26,53 @@ body a {
     font-size: 20px;
     margin: 20px;
     display: inline-block;
+    background-color: teal;
 }
 
 body a:hover {
-    background-color: black;
+    background-color: white;
+}
+
+#video {
+    width: 400px;
+    height: 350px;
+}
+
+#email {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#email label {
+    font-size: 20px;
+}
+
+#submit {
+    font-weight: bold;
+}
+
+article p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nav-bar {
+    margin-top: 1rem;
+	background-color: teal;
+	opacity:.8;
+	line-height:40px;
+	text-align:center;
+    margin-right:2px;
+    width: auto;
+    display: block;
+}
+
+#nav-bar a {
+    text-decoration:none;
+	display:block;
+}
+
+#nav-bar a:hover {
+    display: block;
 }
