@@ -1,5 +1,16 @@
 #header-image {
+    justify-content: center;
     height: 200px;
     width: 200px;
 }
 
+body a {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+body a:hover {
+    background-color: black;
+}
