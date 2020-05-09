@@ -1,10 +1,13 @@
 html {
     background-color: black;
     color: yellow;
+    font-family: 'Asul', sans-serif;
 }
 
 header {
     text-align: center;
+    display: flex;
+    position: fixed;
 }
 
 header h2 {
@@ -26,28 +29,32 @@ body a {
     font-size: 20px;
     margin: 20px;
     display: inline-block;
-    background-color: teal;
 }
 
 body a:hover {
-    background-color: white;
+    background-color: teal;
 }
 
 #video {
-    width: 400px;
-    height: 350px;
+    width: 560px;
+    height: 315px;
 }
 
 #email {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 #email label {
     font-size: 20px;
+    text-align: center;
 }
 
-#submit {
+#input {
     font-weight: bold;
 }
 
@@ -58,21 +65,48 @@ article p {
 }
 
 #nav-bar {
+    width: 100%;
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar ul li{
     margin-top: 1rem;
-	background-color: teal;
 	opacity:.8;
-	line-height:40px;
+    height:auto;
+    width:auto;
 	text-align:center;
     margin-right:2px;
     width: auto;
-    display: block;
+    display: inline-block;
 }
 
-#nav-bar a {
+#nav-bar ul li a {
     text-decoration:none;
-	display:block;
+    display:block;
+    color: white;
+    font-size: 20px;
 }
 
-#nav-bar a:hover {
+#nav-bar ul li a:hover {
     display: block;
+    font-weight: bold;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* For mobile phones: */
+ [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
